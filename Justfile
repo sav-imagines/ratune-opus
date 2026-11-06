@@ -3,3 +3,5 @@ install:
 	cargo build --release
 	ln -s ../release/ratune /bin/ratune
 
+uninstall:
+  rm /bin/ratune
